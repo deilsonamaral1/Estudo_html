@@ -1,0 +1,58 @@
+body{
+	font-family: helvetica, sans-sarif;
+}
+a:link, a:visited{
+	color: #ff00ff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	/* width e o largura */
+	width: 960px;
+	margin: auto;
+   /* margin epara definir as magem*/
+   background: #e3e3e3;
+   padding: 10px 20px;
+   /*background e para definir a cor do funfo do site*/
+}
+
+/*header h1{
+	padding: 10px 20px;
+	 fica atento pois o paddinge so ler primeiro top 
+	depois direita, baixo,esquerda
+	te, a questao que se todos ferem 
+	iguais pasta colocar so uma vez}*/
+	
+/* fazendo ele perder as bolinha da lista*/
+header nav ul {
+	list-style: none;
+	padding-left: 0px;
+	
+	}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+	/*para serem mostrado em linha*/
+}
+header nav ul li a{
+	/*colocando cor no link e ajeitando a fonte*/
+	font-size: 18px;
+	}
+/* inicializando a barra flutuante ou lateral*/
+#content{
+	/* dando posicao pra barrar flutuante*/
+	float: left;
+	width: 660px;
+	}
+#sidebar{
+	float: right;
+	width: 300px;
+	}
+#sidebar ul{
+	list-style: none;
+}
+footer{
+	clear: both;
+}
