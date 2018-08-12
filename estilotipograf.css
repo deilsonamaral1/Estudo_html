@@ -1,0 +1,19 @@
+h1{
+	/* editar a cor*/
+	color: blue;
+	/* espasamento das letras*/
+	letter-spacing: -1px;
+	/*transformar a letra em maiusculo e menusculo */
+	/*uppercase = tudo maiusculas*/
+	/*lowercase = tudo menuscula*/
+	/*capitaliza = deixa toda primeira letra em maiusculo*/
+	text-transform: capitalize;
+	width: 650px;
+	/* pra da uma sobra no texto*/
+	text-shadow: 1px 1px black; 
+}
+p{
+	width: 650px;
+	font-size: 17px;
+	font-family: arial, sans-serif;
+}
