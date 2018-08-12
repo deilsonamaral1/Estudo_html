@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <title>trabalhando formulario</title>
+	   <meta charset="utf-8"/>
+	   <link rel="stylesheet" type="text/css" href="estiloform.css" />
+	</head>
+
+    <body>
+
+      <!--para formulario usa a tag FORM. 
+      formulario precisa no minimo dois propriaedad,
+      tributos pra funcionar corretamente, 
+      que sao ACTION="ex.contato.php" essa ACTION 
+      e a pagina on de vc vai envia o fomulario -->
+      <!--o outro e o METHOD="", 
+      e a forma de como esse acao vao ser enviado pra pagina,
+      tem o get e o post,o get envia os dados de formar que o 
+      navegar mostre no endereco da pagina. 
+      o post envia em breckgrand ele manda os dados escondido.-->
+
+      
+      <form action="" method="get">
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="digite seu Nome" name="nome" />
+        <label for="opcao">gostou do site?</label>
+        <input type="radio" name="opcao" value="sim" checked="checked" />sim
+        <input type="radio" name="opcao" value="nao" />nao
+        <label for="linguagem"> vc quer aprender essas linguagem?</label>
+        <input type="checkbox" name="html"/>html 
+        <input type="checkbox" name="css" />css
+        <textarea name="msg"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+   	   
+   	</body>
+</html>
